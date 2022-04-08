@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <a href="/" className="logo">
-          React CRUD App
+          Student Management System
         </a>
       </div>
     </header>
