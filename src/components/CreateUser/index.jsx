@@ -50,6 +50,24 @@ const CreateUser = props => {
           onChange={onInputChange}
         />
       </div>
+      <div className="form-group">
+        <label>Faculty</label>
+        <input
+          type="email"
+          name="email"
+          value={user.email}
+          onChange={onInputChange}
+        />
+      </div>
+      <div className="form-group">
+        <label>Course</label>
+        <input
+          type="email"
+          name="email"
+          value={user.email}
+          onChange={onInputChange}
+        />
+      </div>
       <div className="form-group form-group--actions">
         <button className="primary-btn">Create</button>
         <button className="cancel-btn" onClick={cancel}>

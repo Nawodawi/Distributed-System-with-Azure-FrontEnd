@@ -44,6 +44,16 @@ const DataTable = props => {
                 <img src={SortIcon} alt="E-Mail" />
               </span>
             </th>
+            <th
+              onClick={() => {
+                props.onSortChange("faculty");
+              }}
+            >
+              <span className="column-sort">
+                Faculty
+                <img src={SortIcon} alt="Faculty" />
+              </span>
+            </th>
             <th>Actions</th>
           </tr>
         </thead>
