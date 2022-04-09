@@ -54,6 +54,16 @@ const DataTable = props => {
                 <img src={SortIcon} alt="Faculty" />
               </span>
             </th>
+            <th
+              onClick={() => {
+                props.onSortChange("course");
+              }}
+            >
+              <span className="column-sort">
+                Course
+                <img src={SortIcon} alt="Course" />
+              </span>
+            </th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -70,6 +80,8 @@ const DataTable = props => {
                 <td>{user.first_name}</td>
                 <td>{user.last_name}</td>
                 <td>{user.email}</td>
+                <td>{user.faculty}</td>
+                <td>{user.course}</td>
                 <td className="field-actions">
                   <button
                     className="primary-btn"
