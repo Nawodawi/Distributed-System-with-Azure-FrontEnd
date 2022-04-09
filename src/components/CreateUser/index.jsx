@@ -53,18 +53,18 @@ const CreateUser = props => {
       <div className="form-group">
         <label>Faculty</label>
         <input
-          type="email"
-          name="email"
-          value={user.email}
+          type="text"
+          name="faculty"
+          value={user.faculty}
           onChange={onInputChange}
         />
       </div>
       <div className="form-group">
         <label>Course</label>
         <input
-          type="email"
-          name="email"
-          value={user.email}
+          type="course"
+          name="course"
+          value={user.course}
           onChange={onInputChange}
         />
       </div>
