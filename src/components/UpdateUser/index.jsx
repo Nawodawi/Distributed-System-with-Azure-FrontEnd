@@ -52,6 +52,24 @@ const UpdateUser = props => {
           onChange={onInputChange}
         />
       </div>
+      <div className="form-group">
+        <label>Faculty</label>
+        <input
+          type="text"
+          name="faculty"
+          value={user.faculty}
+          onChange={onInputChange}
+        />
+      </div>
+      <div className="form-group">
+        <label>Course</label>
+        <input
+          type="course"
+          name="course"
+          value={user.course}
+          onChange={onInputChange}
+        />
+      </div>
       <div className="form-group form-group--actions">
         <button className="primary-btn">Update</button>
         <button className="cancel-btn" onClick={cancel}>
