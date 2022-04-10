@@ -48,10 +48,13 @@
       margin-right: 5px;
     }
     &__update {
-      background-color: var(--secondary-color);
+      background-color: var(--cool-color);
     }
     &__delete {
       background-color: var(--danger-color);
+    }
+    &__view {
+      background-color: var(--primary-color);
     }
   }
   .no-record-message {
@@ -63,4 +66,7 @@
       text-align: left;
     }
   }
+}
+.update-btn{
+  background-color: green;
 }

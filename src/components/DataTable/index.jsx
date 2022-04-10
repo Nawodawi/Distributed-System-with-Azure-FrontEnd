@@ -83,6 +83,12 @@ const DataTable = props => {
                 <td>Science{user.faculty}</td>
                 <td>MIT{user.course}</td>
                 <td className="field-actions">
+                <button
+                    className="update-btn"
+                    onClick={() => props.viewRow(user)}
+                  >
+                   View Asignments
+                  </button>
                   <button
                     className="primary-btn"
                     onClick={() => {
