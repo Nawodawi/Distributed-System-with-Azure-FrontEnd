@@ -9,8 +9,8 @@ const Header = () => {
        <span> <a href="/" className="AppName">
           Student Management System
         </a></span>
-        
         <span> <img className = "topImg" src="SMS.png" alt="" /></span>
+        
         </div>
     </header>
   );
