@@ -80,7 +80,7 @@ const DataTable = props => {
                 <td>{user.first_name}</td>
                 <td>{user.last_name}</td>
                 <td>{user.email}</td>
-                <td>science{user.faculty}</td>
+                <td>Science{user.faculty}</td>
                 <td>MIT{user.course}</td>
                 <td className="field-actions">
                   <button
